@@ -11,6 +11,11 @@ public class Google {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91960\\eclipse-workspace\\JavaProject\\Driver\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+			
+		}
 	}
 
 }
